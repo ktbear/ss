@@ -1,25 +1,3 @@
-const ap = new APlayer({
-  container: document.getElementById('aplayer'),
-  fixed: true,
-  autoplay: false,
-  audio: [
-    {
-      name: "100Ways",
-      artist: '周硕歌',
-      url: 'https://sharefs.yun.kugou.com/202004020005/3c76c3a9c248f1548533de4b88340862/G210/M06/0F/03/spQEAF59OpuAJdxrACmEvu7C0FA044.mp3',
-      cover: 'https://picsum.photos/100/100?image=1005',
-    },
-    {
-      name: 'Sugar',
-      artist: 'Maroon 5',
-      url: 'https://sharefs.yun.kugou.com/202004020020/5f1d97bc6eafde38886b9ee3af508374/G001/M08/11/18/QQ0DAFSNJ82AC5u1ADmF9ThzQkw563.mp3',
-      cover: 'https://picsum.photos/100/100?image=1082',
-    },
-    {
-      name: '玻璃之情',
-      artist: '张国荣',
-      url: 'https://sharefs.yun.kugou.com/202004020039/fc9a1ce2e3e36476a1d3cb8d271b8290/G146/M01/03/07/0g0DAFveztmAHfDGAEW3ISchZ3M444.mp3',
-      cover: 'https://picsum.photos/100/100?image=12',
-    }
-  ]
-});
+// build time:Sat Apr 04 2020 00:24:44 GMT+0800 (GMT+08:00)
+const ap=new APlayer({container:document.getElementById("aplayer"),fixed:true,autoplay:true,audio:[{name:"张泽历",artist:"迪士尼在逃公主",url:"https://sharefs.yun.kugou.com/202004031504/2bac7dededabb053f1774a8b7b5e87bc/G202/M05/14/0B/qpQEAF5xIjCACNWeADQs6LKhWMc004.mp3",cover:"https://picsum.photos/100/100?image=1082"},{name:"Drip Drip Drip",artist:"植地雅哉",url:"https://sharefs.yun.kugou.com/202004031927/5ba1cfa7fde09e616687216fd73dcf61/G156/M07/1B/09/PIcBAFyrA9CAHtZRAGFh_Dxw-FI867.mp3",cover:"https://picsum.photos/100/100?image=1005"}]});
+//rebuild by neat 
